@@ -8,9 +8,7 @@ void main() {
     'December': 4,
     'December': 2,  
   };
-  String jsonString = jsonEncode(jsonObject);
-  Map<String, dynamic> jsonObject1 = jsonDecode(jsonString);
-  Iterable<String> keys = jsonObject1.keys;
+  Iterable<String> keys = jsonObject.keys;
   print(keys);
 
 }
